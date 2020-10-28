@@ -1,3 +1,4 @@
+com/grokonez/jwtauthentication/controller/LocalidadController.class
 com/grokonez/jwtauthentication/repository/RoleRepository.class
 com/grokonez/jwtauthentication/model/Role.class
 com/grokonez/jwtauthentication/model/Estado.class
@@ -5,8 +6,11 @@ com/grokonez/jwtauthentication/controller/MunicipioController.class
 com/grokonez/jwtauthentication/controller/EmpresaController.class
 com/grokonez/jwtauthentication/controller/CategoriaController.class
 com/grokonez/jwtauthentication/model/Municipio.class
+com/grokonez/jwtauthentication/model/Poblacion.class
 com/grokonez/jwtauthentication/security/services/UserDetailsServiceImpl.class
 com/grokonez/jwtauthentication/model/RoleName.class
+com/grokonez/jwtauthentication/controller/PoblacionController.class
+com/grokonez/jwtauthentication/model/Localidad.class
 com/grokonez/jwtauthentication/controller/TestRestAPIs.class
 com/grokonez/jwtauthentication/model/Categoria.class
 com/grokonez/jwtauthentication/message/request/SignUpForm.class
@@ -16,9 +20,11 @@ com/grokonez/jwtauthentication/model/Empresa.class
 com/grokonez/jwtauthentication/model/User.class
 com/grokonez/jwtauthentication/repository/UserRepository.class
 com/grokonez/jwtauthentication/repository/EmpresaRepository.class
+com/grokonez/jwtauthentication/repository/LocalidadRepository.class
 com/grokonez/jwtauthentication/security/jwt/JwtAuthTokenFilter.class
 com/grokonez/jwtauthentication/repository/CategoriaRepository.class
 com/grokonez/jwtauthentication/security/WebSecurityConfig.class
+com/grokonez/jwtauthentication/repository/PoblacionRepository.class
 com/grokonez/jwtauthentication/security/jwt/JwtProvider.class
 com/grokonez/jwtauthentication/repository/EstadoRepository.class
 com/grokonez/jwtauthentication/controller/EstadoController.class
