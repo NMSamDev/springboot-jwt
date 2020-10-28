@@ -11,7 +11,7 @@ import org.springframework.data.jpa.repository.Query;
 @Repository
 public interface LocalidadRepository extends JpaRepository<Localidad, Long> {
     
-    @Query(value = "select NEW com.grokonez.jwtauthentication.model.Localidad(c.idestado,c.idmunicipio,c.idlocalidad,c.localidad) from Localidad c where c.idmunicipio=?1 order by c.idmunicipio")
-    List<Localidad> findLocalidadesByMunicipios(Long idmunicipio);
+    @Query(value = "select NEW com.grokonez.jwtauthentication.model.Localidad(c.idestado,c.idmunicipio,c.idlocalidad,c.localidad) from Localidad c where c.idmunicipio=?1 AND c.idestado=?2 order by c.idmunicipio")
+List<Localidad> findLocalidadesByMunicipios(Long idmunicipio, Long idestado);
 
-}
+} 
